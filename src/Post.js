@@ -9,7 +9,7 @@ function Post({ name, desc, msg, photoUrl }) {
   return (
     <div className="post">
       <div className="post__header">
-        <Avatar />
+        <Avatar src="https://www.fivesquid.com/pics/t2/1556218087-112144-2-1.png" />
         <div className="post__info">
           <h2>{name}</h2>
           <p>{desc}</p>
