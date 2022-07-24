@@ -1,0 +1,45 @@
+.header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 999;
+    background-color: #cbd0d4;
+}
+
+.header__left {
+    display: flex;
+    align-items: center; 
+}
+
+.header__left > img {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    margin-right: 10px;
+}
+
+.header__search{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 5px;
+    color: rgb(196, 148, 228);
+    background-color: #eef3f8;
+}
+
+.header__search > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header__right {
+    display: flex;
+}
+
